@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./styles/global.css">
+</head>
+
+<body class="py-5 px-10 bg-gray-100">
+
+  <header id="header" class="flex justify-between">
+    <!-- nav -->
+    <nav class="flex gap-5 ">
+      <a href="" class="hover:text-blue-500">Home</a>
+      <a href="./pages/about.html" class="hover:text-blue-500">About Us</a>
+      <a href="./pages/contact.html" class="hover:text-blue-500">Contact Us</a>
+      <a href="./pages/blog.html" class="hover:text-blue-500">Blogs</a>
+      <a href="./test.html" class="hover:text-blue-500 whitespace-nowrap">Test</a>
+    </nav>
+    <!-- logo -->
+    <div class="w-10">
+      <img src="./public/images/logo.png" class="w-full" alt="logo">
+    </div>
+  </header>
+
+  <main id="main" class="my-[5em] flex flex-col gap-[5em]">
+
+    <!-- first section -->
+    <div class="flex flex-col md:flex-row gap-6 md:h-[20em]">
+      <!-- dr -->
+      <div id="dr"
+        class="flex-[2] h-full border border-blue-500 p-5 rounded-xl flex justify-between flex-col shadow-md">
+        <!-- dr img -->
+        <div class="w-[10em] flex flex-[1_1_100%] ">
+          <img src="./public/images/dr.png" alt="dr-img">
+        </div>
+        <!-- dr info -->
+        <div class="flex flex-col gap-4">
+          <span>Dr.Name</span>
+          <span>Dr.Info</span>
+          <button class="border border-black w-28 rounded-lg ml-auto">Explore</button>
+        </div>
+      </div>
+      <!-- map -->
+      <div id="map" class="flex-1 h-full border border-blue-500 rounded-xl ">
+        <img src="./public/images/event-map.jpeg" class="w-full h-full rounded-xl" alt="map">
+      </div>
+    </div>
+
+    <!-- blogs -->
+    <div class="flex flex-col md:flex-row gap-4">
+      <div class="flex flex-col justify-center items-center flex-1 border border-primary border-solid rounded-xl">
+        <img class="w-full h-full rounded-b-none rounded-t-xl" src="./public/images/blog1.jpeg" alt="blog-pic">
+        <h1 class="text-2xl my-6">Title</h1>
+      </div>
+      <div class="flex flex-col justify-center items-center flex-1 border border-primary border-solid rounded-xl">
+        <img class="w-full h-full rounded-b-none rounded-t-xl" src="./public/images/blog2.jpg" alt="blog2">
+        <h1 class="text-2xl my-6">Title</h1>
+      </div>
+      <div class="flex flex-col justify-center items-center flex-1 border border-primary border-solid rounded-xl">
+        <img class="w-full h-full rounded-b-none rounded-t-xl" src="./public/images/blog3.jpg" alt="blog3">
+        <h1 class="text-2xl my-6">Title</h1>
+      </div>
+    </div>
+
+    <!-- description -->
+    <div class=" flex flex-col justify-center items-center">
+      <h1 class="text-3xl text-center">Title</h1>
+      <p class=" text-center max-w-[60%] mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+        officiis ipsam dolores quis sequi rerum architecto, corporis consequatur rem a reprehenderit beatae delectus
+        accusantium mollitia debitis iure neque repellat fugit?</p>
+    </div>
+
+  </main>
+  <!-- footer -->
+  <footer class="flex justify-between py-10 px-5 bg-blue-100">
+    <div class="w-[100px]">
+      <img class="w-full" src="./public/images/logo.png" alt="logo">
+    </div>
+    <div class="flex flex-col">
+      <a href="./index.html" class="hover:text-blue-500">Home</a>
+      <a href="./pages/about.html" class="hover:text-blue-500">About</a>
+      <a href="./pages/contact.html" class="hover:text-blue-500">Contact us</a>
+      <a href="./pages/blog.html" class="hover:text-blue-500">blogs</a>
+    </div>
+  </footer>
+</body>
+
+</html>
